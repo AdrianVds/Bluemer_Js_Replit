@@ -30,3 +30,53 @@ let danoCausado = valor - valor1;
 console.log("o monstro tem ainda " +danoCausado+ " de vida");
 let rodadas = danoCausado/valor1;
 console.log("Voce precisara causar esse dano novamente por mais " +rodadas+ " vezes");
+//exercicio 7
+let refeição = 42.54 
+let conta1 = 42.54/100 
+let conta2 = conta1*10 
+let conta3 = refeição+conta2 
+console.log("o valor total foi de " +conta3+ " ja somado a gorjeta do carçom de " +conta2)
+let format = conta3.toFixed(1)
+console.log(format)
+// exercicio 8
+const compra = 100.98
+const pago = 150.00
+let troco = pago - compra
+console.log("Troco no valor de " +troco)
+let valorArredondado = Math.ceil(troco)
+console.log(valorArredondado)
+//ecercicio 9
+let anoNascimento = +prompt("Qual ano voce nasceu? ")
+let anoAtual = 2021
+let cauculoIdade = 2021-anoNascimento
+console.log(cauculoIdade+" Você está na flor da idade")
+//exercicio 10
+let valorReais = +prompt("Digite a quantidade de reais: ")
+let dolar1 = valorReais/5.42
+let euro1 = valorReais/6.32
+let libraEsterlina1 = valorReais/7.38
+let dolarCanadense1 = valorReais/4.22
+let pesoArgentino1 = valorReais/0.056
+let pesoChileno1 = valorReais/0.0069
+console.log()
+console.log(`R$ ${valorReais} se convertem em ${dolar1.toFixed(2)} dolar`)
+console.log(`R$ ${valorReais} se convertem em ${euro1.toFixed(2)} euros`)
+console.log(`R$ ${valorReais} se convertem em ${libraEsterlina1.toFixed(2)} libra esterlina`)
+console.log(`R$ ${valorReais} se convertem em ${pesoArgentino1.toFixed(2)} libra canadense`)
+console.log(`R$ ${valorReais} se convertem em ${pesoChileno1.toFixed(2)} Pesos argentinos`)
+console.log(`R$ ${valorReais} se convertem em ${pesoChileno1.toFixed(2)} Pesos Chilenos`)
+console.log(`R$ ${dolar1.toFixed(2)}`);
+//exercicio 11
+let valorAluguel = 1000
+let valorReajuste = (1000/100)*31
+let valorTotal = valorAluguel+valorReajuste
+console.log(`valor do reajuste ${valorReajuste}`)
+console.log(`valor total ${valorTotal}`)
+//exercicio 12
+let valorAluguel = 1000
+let valorReajuste = (1000/100)*99
+let valorTotal = valorAluguel+valorReajuste
+console.log(`valor do reajuste ${valorReajuste.toFixed(2)}`)
+console.log(`valor total ${valorTotal.toFixed(2)}`)
+
+
