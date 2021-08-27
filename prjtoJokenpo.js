@@ -46,12 +46,3 @@ while (jogarpartida === "sim"){
 }
 }
 jogarNovamente()
-
-
-
-
-
-
-
-
-
